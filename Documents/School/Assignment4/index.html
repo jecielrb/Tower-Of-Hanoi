@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/TimHortons.css">
+    <title>Tim Hortons</title>
+</head>
+
+<body>
+    <img src="http://blogs.ubc.ca/akarayanuk/files/2013/10/logo-en.jpg" alt="Tim Hortons"><br /><br />
+
+    <header>Welcome To Tim Hortons!</header><br><br>
+
+    <div class="container">
+        <form action="order.php" method="POST" class="form">
+            <h1>Give us some numbers...</h1>
+            <label>Number of Coffee: </label>
+            <input type="number" name="coffee"> <br><br>
+
+            <label>Size: </label>
+            <select name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extraLarge">Extra Large</option>
+            </select><br><br>
+
+            <label>How many creams? </label>
+            <input type="number" name="creams"><br><br>
+
+            <label>How many sugars? </label>
+            <input type="number" name="sugars"><br><br>
+
+            <input type="submit" value="Order Coffee" name="original">
+           
+        </form>
+    </div> <br><br>
+    <div class="container">
+        <form action="order.php" method="POST" class="form">
+            <h1>... or the slang!!</h1>
+            <input type="number" name="coffee">
+            <select name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extraLarge">Extra</option>
+            </select><br><br>
+
+            <input type="radio" name="type" value="Regular">
+            <label for="Regular">Regular</label> <br><br>
+            <input type="radio" name="type" value="DD">
+            <label for="DD">Double Double</label> <br><br>
+            <input type="radio" name="type" value="TT">
+            <label for="TT">Triple Triple</label><br><br>
+            <input type="radio" name="type" value="Black">
+            <label for="Black">Black</label><br><br>
+            <input type="radio" name="type" value="Black1S">
+            <label for="Black1S">Black One Sugar</label><br><br>
+            <input type="radio" name="type" value="Black2S">
+            <label for="Black2S">Black Two Sugar</label><br><br>
+            <input type="radio" name="type" value="Black3S">
+            <label for="Black3S">Black Three Sugar</label><br><br>
+            <input type="submit" value="Order Coffee" name="slang" >
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: #f5e8c4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+header{
+    font-size: 50px;
+    color: #3b2a1c;
+    font-family:'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    color: #3b2a1c;
+
+}
+label{
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    font-family:'Times New Roman', Times, serif;
+    color: #3b2a1c;
+    font-size: 18px;
+}
+input[type=number]{
+    width: 15%;
+    padding: 4px;
+    height: 10px;
+    margin-top: 0;
+    text-align: left;
+    width: 100px;
+}
+select{
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+.container{
+    display: inline-block;
+    border: 5px solid #3b2a1c;
+    width: 20%;
+    padding: 50px 0;
+    text-align: center;
+}
+.container2{
+    /* text-align: unset; */
+    background-color: white;
+    border: 5px solid #3b2a1c;
+}
+.price{
+    font-size: 50px;
+    color: #3b2a1c;
+}
