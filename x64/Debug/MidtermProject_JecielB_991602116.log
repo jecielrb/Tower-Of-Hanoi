@@ -1,0 +1,3 @@
+﻿  Tower.cpp
+C:\Users\bener\Documents\School\.NET Programming\MidtermProject_JecielB_991602116\Tower.cpp(59,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  MidtermProject_JecielB_991602116.vcxproj -> C:\Users\bener\Documents\School\.NET Programming\MidtermProject_JecielB_991602116\x64\Debug\MidtermProject_JecielB_991602116.exe
